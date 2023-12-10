@@ -2,7 +2,6 @@ from PIL import Image
 import streamlit as st
 import os
 
-# Convert relative path to absolute path
 image_path = os.path.abspath("C:/Users/Public/Image Coding/Image Coding.webp")
 
 # Set page configuration
