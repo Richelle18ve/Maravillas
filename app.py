@@ -11,8 +11,10 @@ st.set_page_config(page_title="Richelle", page_icon=":heart:", layout="wide")
 # Get the current working directory
 current_dir = os.path.dirname(os.path.realpath(__file__))
 
+# Specify the relative path to the image file
 image_path = os.path.join(current_dir, "Image Coding", "Image Coding.webp")
 
+# Load the image using a relative path
 image_path = os.path.join(current_dir, "Image Coding", "Image Coding.webp")
 image_path = "C:/Users/Public/Image Coding/Image Coding.webp"
 img_contact_from = Image.open("C:/Users/Public/Image Coding/Image Coding.webp")
