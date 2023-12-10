@@ -2,6 +2,7 @@ from PIL import Image
 import streamlit as st
 import os
 
+# Convert relative path to absolute path
 image_path = os.path.abspath("C:/Users/Public/Image Coding/Image Coding.webp")
 
 # Set page configuration
@@ -12,11 +13,11 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Specify the relative path to the image file
 image_path = os.path.join(current_dir, "Image Coding", "Image Coding.webp")
+image_path = "C:/Users/Public/Image Coding/Image Coding.webp"
+img_contact_from = Image.open(image_path)
 
 # Load the image using a relative path
-image_path = os.path.join(current_dir, "Image Coding", "Image Coding.webp")
-image_path = "C:/Users/Public/Image Coding/Image Coding.webp"
-img_contact_from = Image.open("C:/Users/Public/Image Coding/Image Coding.webp")
+img_contact_from = Image.open(image_path)
 
 # GREETINGS AND ABOUT ME
 with st.container():
