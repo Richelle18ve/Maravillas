@@ -17,6 +17,7 @@ image_path = os.path.join(current_dir, "Image Coding", "Image Coding.webp")
 # Load the image using a relative path
 image_path = os.path.join(current_dir, "Image Coding", "Image Coding.webp")
 image_path = "C:/Users/Public/Image Coding/Image Coding.webp"
+img_contact_from = Image.open("C:/Users/Public/Image Coding/Image Coding.webp")
 
 # GREETINGS AND ABOUT ME
 with st.container():
